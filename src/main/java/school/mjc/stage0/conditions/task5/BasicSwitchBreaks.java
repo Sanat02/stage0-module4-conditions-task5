@@ -5,9 +5,7 @@ public class BasicSwitchBreaks {
         
           int a = 20;
         switch (a) {
-            default:
-                System.out.println("default");
-                break;
+           
 
             case 7:
                 System.out.println("seven");
@@ -18,6 +16,9 @@ public class BasicSwitchBreaks {
 
             case 20:
                 System.out.println("20");
+                break;
+              default:
+                System.out.println("default");
                 break;
         }
     }
